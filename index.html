@@ -1,0 +1,84 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop File Uploader</title>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+
+ <meta name="theme-color" content="#667eea">
+ <meta name="description" content="Premium drag & drop file uploader with instant preview and animations">
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <main class="app-container">
+
+    <!-- Uploader Card -->
+    <section class="uploader-card">
+
+      <!-- Header -->
+      <header class="uploader-header">
+        <h1>Drag and Drop File Uploader</h1>
+        <p>Drag, drop & preview images instantly</p>
+      </header>
+
+      <!-- Drop Zone -->
+      <div class="drop-zone" id="dropZone">
+
+        <input 
+          type="file" 
+          id="fileInput" 
+          accept="image/png, image/jpeg, image/gif"
+          hidden
+        />
+
+        <div class="drop-zone-content">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p><strong>Drag & drop image here</strong></p>
+          <span>or click to browse</span>
+          <small>JPG, PNG, GIF only</small>
+        </div>
+
+      </div>
+
+      <!-- Error Message -->
+      <div class="error-message" id="errorMessage">
+        <!-- JS will inject error text -->
+      </div>
+
+      <!-- File Info -->
+      <div class="file-info" id="fileInfo">
+        <span class="file-name"></span>
+        <span class="file-size"></span>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="progress-wrapper" id="progressWrapper">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <span class="progress-percent" id="progressPercent">0%</span>
+      </div>
+
+      <!-- Image Preview -->
+      <div class="preview-container" id="previewContainer">
+        <img src="" alt="Image Preview" id="previewImage" />
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons" id="actionButtons">
+        <button class="btn replace-btn">Replace Image</button>
+        <button class="btn remove-btn">Remove Image</button>
+      </div>
+
+    </section>
+
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
