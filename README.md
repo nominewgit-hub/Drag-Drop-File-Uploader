@@ -56,21 +56,31 @@ A modern, animated drag-and-drop file uploader built with HTML, CSS, and JavaScr
 
 *HTML5* 
  - Semantic markup
+   
 *CSS3*
  - Advanced animations, gradients, flexbox
+   
 *JavaScript (ES6)* 
  - DOM manipulation, File API, localStorage
+   
 *Font Awesome* 
  - Icon library
+   
 *Google Fonts* 
  - Inter font family
 
 # Project Structure
+
 drag-drop-uploader/
+
 ├── index.html # Main HTML file
+ 
 ├── style.css # Styling with animations
+
 ├── script.js # JavaScript functionality
+
 ├── README.md # This documentation
+
 └── screenshots/ # Project screenshots
 
 
@@ -79,7 +89,7 @@ drag-drop-uploader/
 1. *Clone the repository*
 
    ```bash
-   git clone https://github.com/yourusername/drag-drop-uploader.git
+   git clone https://github.com/nominewgit-hub/Drag-Drop-File-Uploader
 
 
 2. *Navigate to project directory*
@@ -147,6 +157,7 @@ drag-drop-uploader/
 # GitHub: https://github.com/nominewgit-hub
 
 # LinkedIn: https://www.linkedin.com/in/muhammad-noman-638934335/
+
 
 
 
