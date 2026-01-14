@@ -36,7 +36,7 @@ A modern, animated drag-and-drop file uploader built with HTML, CSS, and JavaScr
 
 # Live Demo
 
-🔗 [View Live Demo](https://your-live-demo-link.com)
+🔗 [View Live Demo](https://nominewgit-hub.github.io/Drag-Drop-File-Uploader/)
 
 # Screenshots
 
@@ -146,3 +146,4 @@ drag-drop-uploader/
 # GitHub: https://github.com/nominewgit-hub
 
 # LinkedIn: https://www.linkedin.com/in/muhammad-noman-638934335/
+
