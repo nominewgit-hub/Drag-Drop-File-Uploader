@@ -2,7 +2,8 @@
 
 A modern, animated drag-and-drop file uploader built with HTML, CSS, and JavaScript. Features a premium UI with smooth animations, instant image preview, and localStorage persistence.
 
-![Internship]( https://www.internee.pk//userprofile/nomanmarwat1028@gmail.com )
+# Internship click here the link: 
+( https://www.internee.pk//userprofile/nomanmarwat1028@gmail.com )
 
 
 # Features
@@ -146,5 +147,6 @@ drag-drop-uploader/
 # GitHub: https://github.com/nominewgit-hub
 
 # LinkedIn: https://www.linkedin.com/in/muhammad-noman-638934335/
+
 
 
